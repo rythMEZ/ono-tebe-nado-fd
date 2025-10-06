@@ -37,7 +37,7 @@
   width: 100%;
 }
 
-.adress {
+.address {
   display: flex;
   flex-direction: column;
   max-width: 236px;
@@ -157,7 +157,6 @@
 }
 
 .lots__card-list-item {
-  display: block;
   padding-bottom: 30px;
 }
 
@@ -195,7 +194,6 @@
 
 .card__title {
   z-index: 2;
-  display: block;
   font-weight: bold;
   font-size: 22px;
   text-decoration: underline;
@@ -206,7 +204,6 @@
 
 .card__text {
   z-index: 2;
-  display: block;
   font-size: 20px;
   line-height: 120%;
 }
@@ -269,11 +266,7 @@
   font-size: 20px;
 }
 
-.about__text-akcent {
-  display: block;
-}
-
-.about__text-paragaph {
+.about__text-paragraph {
   display: block;
 }
 
