@@ -7,9 +7,6 @@
   padding: 90px 50px 95px 50px;
 }
 
-.header__menu {
-}
-
 .header__links-list {
   display: flex;
   gap: 33px;
@@ -223,10 +220,6 @@
   font-size: 20px;
   text-decoration-thickness: 1px;
   text-underline-position: under;
-}
-
-.about {
-  padding: 120px 24px;
 }
 
 /* Стили секции "Об аукционе"*/
