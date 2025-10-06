@@ -12,7 +12,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 36px;
+  gap: 33px;
   list-style: circle;
 }
 
@@ -43,7 +43,7 @@
 .adress {
   display: flex;
   flex-direction: column;
-  max-width: 240px;
+  max-width: 236px;
   font-style: normal;
   line-height: 24px;
   text-underline-position: under;
@@ -69,7 +69,7 @@
   background-color: rgb(0 0 0/0.6);
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .cover__title {
@@ -146,10 +146,10 @@
 
 .lots__heading {
   display: block;
+  padding: 5px 20px 27px 39px;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: bold;
-  padding: 4px 15px 26px 39px;
 }
 
 .lots__card-list {
@@ -168,18 +168,20 @@
   display: block;
   height: 100%;
   text-decoration: none;
+  width: 335px;
 }
 
 .card {
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-items: space-around;
+  align-items: center;
+  justify-content: space-between;
   height: 100%;
   background-size: cover;
   background-position: center;
   min-height: 596px;
-  min-width: 335px;
+  padding: 47px 36px 47px 41px;
 }
 
 .card_type_film {
@@ -198,7 +200,6 @@
   display: block;
   font-size: 22px;
   font-weight: bold;
-  align-self: center;
   text-transform: uppercase;
   text-decoration: underline;
   text-underline-position: under;
@@ -228,15 +229,6 @@
   padding: 120px 24px;
 }
 
-/*
-.card .overlay {
-  padding: 47px 31px 48px 42px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  z-index: 1;
-}
-*/
 /* Стили секции "Об аукционе"*/
 
 .about {
@@ -304,7 +296,7 @@
   display: flex;
   align-items: flex-start;
   justify-self: start;
-  min-width: 300;
+  min-width: 300px;
 }
 
 .footer__adress-text {
@@ -314,7 +306,6 @@
 .footer__menu {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
 }
 
 .footer__menu-list {
@@ -323,10 +314,10 @@
   align-items: center;
   list-style-type: none;
   text-underline-position: under;
-  padding-left: 20px;
 }
 
 .footer__menu-list-item {
+  padding-left: 83px;
 }
 
 .footer__menu-link {
