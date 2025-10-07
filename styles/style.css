@@ -37,7 +37,7 @@
   width: 100%;
 }
 
-.address {
+.address-block {
   display: flex;
   flex-direction: column;
   max-width: 236px;
@@ -46,9 +46,8 @@
   text-underline-position: under;
 }
 
-.header__adress {
-  justify-self: end;
-  align-items: flex-start;
+.address-block__item {
+  display: block;
 }
 
 /* Стили хироблока "Оно тебе надо"*/
@@ -73,7 +72,7 @@
   z-index: 2;
   padding: 164px 50px 80px 50px;
   color: white;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 100px;
   text-transform: uppercase;
@@ -95,6 +94,11 @@
 .aligned-text_right {
   padding: 7px 0px 15px 60px;
   text-align: right;
+}
+
+.aligned-address_right {
+  justify-self: end;
+  align-items: flex-start;
 }
 
 .letter-spacing-extended {
@@ -154,10 +158,11 @@
   flex-wrap: wrap;
   gap: 22px;
   color: white;
+  padding-bottom: 30px;
 }
 
 .lots__card-list-item {
-  padding-bottom: 30px;
+  display: block;
 }
 
 .card-link {
@@ -208,12 +213,8 @@
   line-height: 120%;
 }
 
-.card__accent {
-  display: block;
-}
-
 .lots__look-more-link {
-  padding-left: 39px;
+  margin-left: 39px;
   font-size: 20px;
   text-decoration-thickness: 1px;
   text-underline-position: under;
@@ -276,17 +277,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   padding: 140px 18px 71px 51px;
-}
-
-.footer__adress {
-  display: flex;
-  justify-self: start;
-  align-items: flex-start;
-  min-width: 300px;
-}
-
-.footer__adress-text {
-  display: block;
 }
 
 .footer__menu {
